@@ -106,22 +106,6 @@ h4 {
   color: #0066cc;
 }
 
-/* Skills Section */
-#skills ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#skills li {
-  background-color: #0066cc;
-  color: white;
-  padding: 0.5rem 1rem;
-  margin: 0.5rem;
-  border-radius: 5px;
-}
-
 /* Contact Section */
 #contact form {
   display: flex;
