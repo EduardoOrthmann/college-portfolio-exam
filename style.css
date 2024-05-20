@@ -1,0 +1,155 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0.5rem 1rem;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 6rem 2rem 2rem 2rem;
+}
+
+/* Section */
+section {
+  margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4 {
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+/* About Section */
+#about p {
+  line-height: 1.6;
+}
+
+#about strong {
+  color: #0066cc;
+}
+
+/* Education Section */
+#education ul {
+  list-style: none;
+  padding: 0;
+}
+
+#education li {
+  margin-bottom: 1rem;
+}
+
+#education li strong {
+  display: block;
+  font-size: 1.2rem;
+  color: #0066cc;
+}
+
+/* Skills Section */
+#skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#skills li {
+  background-color: #0066cc;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  margin: 0.5rem 0 0.2rem;
+  font-weight: bold;
+}
+
+#contact input, #contact textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+#contact button {
+  background-color: #0066cc;
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #005bb5;
+}
